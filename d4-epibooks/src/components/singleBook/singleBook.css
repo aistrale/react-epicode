@@ -1,0 +1,11 @@
+.card-container {
+    padding: 5px;
+    background-color: #135D66;
+    color: #E3FEF7;
+}
+
+.card-img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
