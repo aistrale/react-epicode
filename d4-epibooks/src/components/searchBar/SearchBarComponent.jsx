@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import './searchBarComponent.css'
 
 const SearchBar = (props) => {
 
@@ -23,8 +24,8 @@ const SearchBar = (props) => {
       <Row>
         <Col>
           <div className="d-flex justify-content-between my-2">
-            <input type="text" className="w-100" onChange={handleChangeInput} />
-            <button onClick={filterBooks}>Search</button>
+            <input type="text" className="w-100 searchBar" onChange={handleChangeInput} />
+            <button className="searchBtn" onClick={filterBooks}>Search</button>
           </div>
         </Col>
       </Row>
